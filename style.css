@@ -1,0 +1,196 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+	width: 100% ; clear: both ; 
+}
+
+body {
+	background: #ccc ; 
+	padding: 5px; 
+}
+
+#pagewrap {
+	margin: 0 auto; /*width: 700px; */
+	width: 320px; font-size: 1em ; 
+}
+
+span {
+	position: relative ; float: left ; 
+	display: block ; width: 30px; height: 64px; 
+
+	margin-bottom: 50px; font-size: 20px; font-weight: bold; 
+
+	padding-top: 42px; /* <-- only for debugging purposes, just to see letters */
+}
+
+span.letter {
+	text-indent: -9999px ;
+	/*background: url(images/default.png) no-repeat top left ;*/
+	border-bottom: solid 4px black ;
+	margin-right: 5px;
+}
+
+.line-break {
+	clear: left ; 
+}
+.possessive  {
+	width: 10px; background: none ; 
+}
+
+span.no-margin {
+	width: 0px; 
+}
+
+#key-wrap {
+	margin-top: 10px; margin-bottom: 60px; position: relative ; display: none ; 
+}
+#key {
+	display: block ; 
+}
+#name_or_id {
+	display: block ; font-size: 18px; font-weight: bold ; 
+	text-transform: uppercase; top: 0; right: 0 ; position: absolute ; 
+	border: solid 1px black ; padding: 10px; 
+	-webkit-border-radius: 20px; 
+	border-radius: 20px; 
+}
+
+/* 
+ * FORM
+ */
+ h1 {
+ 	font-weight: bold ; font-size: 20px; margin-bottom: 5px; 
+ }
+textarea {
+	width: 800px; border: solid 1px black ; 
+	height: 50px; 
+	margin:0; width: 100% ; 
+}
+
+input[type="text"] {
+	border: solid 1px black ; 
+	float: left ; padding: 3px; 
+	margin:0; margin-bottom: 5px; 
+}
+
+label {
+	font-family: "Arial" ; 
+	font-size: 13px; 
+	margin-left: 10px; 
+	line-height: 24px; 
+	display: none ; 
+}
+
+#submit {
+	width: 75px; display: block ; float: left ; 
+	padding: 5px;
+	font-size: 13px; font-weight: bold; 
+	border: solid 1px black ; 
+	-webkit-border-radius: 20px; 
+	border-radius: 20px; 
+	background: #eee; margin-bottom: 15px; 
+}
+
+#load {
+	float: left ; margin-left: 15px; 
+	margin-top: 5px; 
+}
+
+/*
+ * PRINT
+ */
+@media print {
+	body {
+		background: white ; 
+	}
+
+	#form {
+		display: none ; 
+	}
+}
+
+
+
+/* LETTERS */
+span.A {
+	background: url(images/a.png) no-repeat top left ;
+}
+span.B {
+	background: url(images/b.png) no-repeat top left ;
+}
+span.C {
+	background: url(images/c.png) no-repeat top left ;
+}
+span.D {
+	background: url(images/d.png) no-repeat top left ;
+}
+span.E {
+	background: url(images/e.png) no-repeat top left ;
+}
+span.F {
+	background: url(images/f.png) no-repeat top left ;
+}
+span.G {
+	background: url(images/g.png) no-repeat top left ;
+}
+span.H {
+	background: url(images/h.png) no-repeat top left ;
+}
+span.I {
+	background: url(images/i.png) no-repeat top left ;
+}
+span.J {
+	background: url(images/j.png) no-repeat top left ;
+}
+span.K {
+	background: url(images/k.png) no-repeat top left ;
+}
+span.L {
+	background: url(images/l.png) no-repeat top left ;
+}
+span.M {
+	background: url(images/m.png) no-repeat top left ;
+}
+span.N {
+	background: url(images/n.png) no-repeat top left ;
+}
+span.O {
+	background: url(images/o.png) no-repeat top left ;
+}
+span.P {
+	background: url(images/p.png) no-repeat top left ;
+}
+span.Q {
+	background: url(images/q.png) no-repeat top left ;
+}
+span.R {
+	background: url(images/r.png) no-repeat top left ;
+}
+span.S {
+	background: url(images/s.png) no-repeat top left ;
+}
+span.T {
+	background: url(images/t.png) no-repeat top left ;
+}
+span.U {
+	background: url(images/u.png) no-repeat top left ;
+}
+span.V {
+	background: url(images/v.png) no-repeat top left ;
+}
+span.W {
+	background: url(images/w.png) no-repeat top left ;
+}
+span.X {
+	background: url(images/x.png) no-repeat top left ;
+}
+span.Y {
+	background: url(images/y.png) no-repeat top left ;
+}
+span.Z {
+	background: url(images/z.png) no-repeat top left ;
+}
